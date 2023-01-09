@@ -24,7 +24,7 @@ class MyThread extends Thread{
             }catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            System.out.println("Hello from MyThread " + i + " " + MyThread.currentThread().getName());
+            System.out.println("Hello from MyThread " + i + " " + MyThread2.currentThread().getName());
         }
     }
 }
